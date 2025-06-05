@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 
-# Tạo bảng Nhân viên
 data = {
     'ID': [101, 102, 103, 104, 105, 106],
     'Name': ['An', 'Bình', 'Cường', 'Dương', np.nan, 'Hạnh'],
@@ -11,7 +10,6 @@ data = {
 }
 df_nv = pd.DataFrame(data)
 
-# Tạo bảng Phòng ban
 data_pb = {
     'Department': ['HR', 'IT', 'Finance', 'Marketing'],
     'Manager': ['Trang', 'Khoa', 'Minh', 'Lan']
